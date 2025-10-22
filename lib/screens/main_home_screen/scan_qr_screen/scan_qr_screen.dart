@@ -105,19 +105,17 @@ class QrCodeScanWidget extends StatelessWidget {
               print('Barcode found! ${barcode.rawValue}');
             }
           },
-          overlayBuilder: (context, constraints) => SizedBox(
-            child: Center(
-              child: AnimatedBuilder(
-                animation: animationController,
-                builder: (context, child) {
-                  return Transform.translate(
-                    offset: Offset(0, -150 + animationController.value * 300),
-                    child: SvgPicture.asset(
-                      Assets.images.scanLine.path,
-                    ),
-                  );
-                },
-              ),
+          overlay: Center(
+            child: AnimatedBuilder(
+              animation: animationController,
+              builder: (context, child) {
+                return Transform.translate(
+                  offset: Offset(0, -150 + animationController.value * 300),
+                  child: SvgPicture.asset(
+                    Assets.images.scanLine.path,
+                  ),
+                );
+              },
             ),
           ),
         ),
