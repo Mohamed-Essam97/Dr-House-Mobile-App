@@ -1,0 +1,13 @@
+{
+  "hello": "Hello",
+  "welcome": "Welcome",
+  "please_select_your_language": "Please select your language",
+  "settings": "Settings",
+  "profile": "Profile",
+  "logout": "Logout",
+  "save": "Save",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "back": "Back",
+  "next": "Next"
+}

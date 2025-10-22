@@ -1,0 +1,13 @@
+{
+  "hello": "Hallo",
+  "welcome": "Willkommen",
+  "please_select_your_language": "Bitte wählen Sie Ihre Sprache",
+  "settings": "Einstellungen",
+  "profile": "Profil",
+  "logout": "Abmelden",
+  "save": "Speichern",
+  "cancel": "Abbrechen",
+  "confirm": "Bestätigen",
+  "back": "Zurück",
+  "next": "Weiter"
+}

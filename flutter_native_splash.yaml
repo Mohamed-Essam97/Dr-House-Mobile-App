@@ -1,0 +1,15 @@
+flutter_native_splash:
+  color: "#0188A4" # This will be the initial color shown during native splash
+
+  # Create a gradient background using an image
+  background_image: "assets/images/splash_background.png"
+
+  image: assets/images/logo.png # Your logo image
+
+  android_12:
+    image: assets/images/logo.png
+    icon_background_color: "#0188A4"
+
+  ios: true
+  android: true
+  web: false
