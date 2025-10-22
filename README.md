@@ -2,6 +2,29 @@
 
 A modern Flutter application for medical services and doctor appointments.
 
+## 📱 App Screenshots
+
+### Onboarding & Authentication
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <img src="screenshots/splash.png" width="200" alt="Splash Screen"/>
+    <img src="screenshots/onboarding.png" width="200" alt="Onboarding"/>
+    <img src="screenshots/language.png" width="200" alt="Language Selection"/>
+    <img src="screenshots/login.png" width="200" alt="Login Screen"/>
+    <img src="screenshots/register.png" width="200" alt="Registration Screen"/>
+</div>
+
+### Main Features
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <img src="screenshots/home.png" width="200" alt="Home Screen"/>
+    <img src="screenshots/doctors.png" width="200" alt="Doctors List"/>
+    <img src="screenshots/appointment_booking.png" width="200" alt="Appointment Booking"/>
+    <img src="screenshots/appointments.png" width="200" alt="My Appointments"/>
+    <img src="screenshots/profile.png" width="200" alt="Profile Screen"/>
+    <img src="screenshots/blog.png" width="200" alt="Blog Screen"/>
+</div>
+
 ## Features
 
 - 🏥 Doctor Appointments
@@ -89,7 +112,7 @@ lib/
 ### Authentication
 
 - Sign in with email/password
-- Social media authentication
+- Social media authentication (Google, Apple)
 - Password recovery
 - User registration
 
